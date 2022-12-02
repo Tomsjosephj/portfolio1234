@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.links  a{
+
+text-decoration: none;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
+ul a{
+    padding-inline: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+header{
+    
+    margin-bottom: 10px;
+    background-color: rgb(24, 124, 182);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+#home{
+    padding-top: 70px;
+    background: linear-gradient( to bottom right,red,yellow);
+}
+
+.links a:hover{
+    color: rgba(15, 6, 3, 0.932);
+    font-size: 30px;
+    text-transform: 0.5s;
+}
+#home img{
+    border-radius: 50%;
+}
+
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
